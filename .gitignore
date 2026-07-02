@@ -1,1 +1,7 @@
 /referencias
+.venv
+.venv/
+.venv-py314-backup/
+.python/
+.uv-cache/
+.matplotlib-cache/

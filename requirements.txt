@@ -1,0 +1,20 @@
+# Ambiente validado:
+# - Python 3.12.13
+# - Execucao em CPU, sem GPU obrigatoria.
+#
+# Preparacao recomendada com uv:
+#   python3 -m pip install uv
+#   UV_PYTHON_INSTALL_DIR=.python uv python install 3.12 --cache-dir .uv-cache
+#   UV_PYTHON_INSTALL_DIR=.python uv venv .venv --python 3.12 --seed --cache-dir .uv-cache
+#   .venv/bin/pip install -r requirements.txt
+#
+# O PyTorch usa wheel CPU-only via indice oficial abaixo.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+numpy==2.5.0
+matplotlib==3.11.0
+pandas==3.0.3
+pillow==12.3.0
+torch==2.12.1+cpu
+jupyter==1.1.1
+nbformat==5.10.4
