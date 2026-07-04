@@ -163,10 +163,8 @@ Ela não substitui a inferência oficial. Seu papel é didático e reprodutível
 ```text
 .
 +-- README.md
-+-- COLAB.md
 +-- requirements.txt
 +-- requirements_colab.txt
-+-- etapas_desenvolvimento.md
 +-- notebooks/
 |   +-- spatiotemporal_nowcasting_of_urban_flooding_u-rnn.ipynb
 |   +-- spatiotemporal_nowcasting_of_urban_flooding_u-rnn_colab_gpu.ipynb
@@ -175,13 +173,6 @@ Ela não substitui a inferência oficial. Seu papel é didático e reprodutível
 |   |   +-- metrics_epoch100.xlsx
 |   |   +-- u_rnn_official_urbanflood24_lite.gif
 |   |   +-- u_rnn_official_urbanflood24_lite.png
-|   +-- animacoes/
-|   +-- figuras/
-|   +-- logs/
-|   +-- metricas/
-+-- referencias/              # material local de estudo; pode não ser publicado
-    +-- artigo_referencia.pdf
-    +-- desenvolvimento_esperado.pdf
 ```
 
 ## Instalação e Execução Local em CPU
@@ -288,7 +279,6 @@ GIF oficial:
 
 ## Resultados Locais em CPU
 
-Resumo da execução local registrado em `outputs/logs/resumo_execucao.json`:
 
 | Métrica | Valor |
 |---|---:|
