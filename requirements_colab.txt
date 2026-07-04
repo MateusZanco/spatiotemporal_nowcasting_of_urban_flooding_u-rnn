@@ -1,0 +1,14 @@
+# Dependências leves para a versão Google Colab/GPU.
+# Não instale PyTorch por este arquivo: o Colab normalmente já fornece
+# torch com suporte CUDA quando o runtime de GPU está habilitado.
+#
+# No Colab, use:
+#   Runtime > Change runtime type > GPU
+#
+# O notebook também instala, em célula própria, as dependências auxiliares
+# usadas pelo repositório oficial U-RNN: pyyaml, tqdm, openpyxl, seaborn,
+# celluloid e opencv-python-headless.
+numpy
+matplotlib
+pandas
+pillow
